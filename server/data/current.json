@@ -1,0 +1,23 @@
+[
+  {
+    "name": "John Doe",
+    "title": "Senior SWE, Google",
+    "imageUrl": "https://i.pravatar.cc/150?u=a042581f4e29026704d",
+    "description": "Algorithms & DS mentor",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "twitter": "https://twitter.com/johndoe",
+      "leetcode": "https://leetcode.com/johndoe/"
+    }
+  },
+  {
+    "name": "Jane Smith",
+    "title": "PM, Microsoft",
+    "imageUrl": "https://i.pravatar.cc/150?u=a042581f4e29026705d",
+    "description": "Product strategy & UX",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/janesmith",
+      "leetcode": "https://leetcode.com/janesmith/"
+    }
+  }
+]

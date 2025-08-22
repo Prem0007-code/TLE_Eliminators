@@ -1,0 +1,38 @@
+[
+  {
+    "id": "level-1",
+    "title": "CP Level 1: Foundations",
+    "level": 1,
+    "price": 1999,
+    "currency": "INR",
+    "description": "Math basics, time complexity, arrays, strings, basic STL.",
+    "url": "https://example.com/level-1"
+  },
+  {
+    "id": "level-2",
+    "title": "CP Level 2: Core DSA",
+    "level": 2,
+    "price": 2999,
+    "currency": "INR",
+    "description": "Stacks/Queues, Linked Lists, Hashing, Binary Search, Two Pointers.",
+    "url": "https://example.com/level-2"
+  },
+  {
+    "id": "level-3",
+    "title": "CP Level 3: Graphs & DP",
+    "level": 3,
+    "price": 3999,
+    "currency": "INR",
+    "description": "Trees, Graph Traversals, Shortest Paths, DP patterns.",
+    "url": "https://example.com/level-3"
+  },
+  {
+    "id": "level-4",
+    "title": "CP Level 4: Advanced",
+    "level": 4,
+    "price": 4999,
+    "currency": "INR",
+    "description": "Segment Trees, BIT, Advanced DP, Number Theory intro.",
+    "url": "https://example.com/level-4"
+  }
+]

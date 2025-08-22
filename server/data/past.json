@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Alex Brown",
+    "title": "Ex-SWE, Meta",
+    "imageUrl": "https://i.pravatar.cc/150?u=a042581f4e29026708d",
+    "description": "Graphs & DP",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/alexbrown",
+      "leetcode": "https://leetcode.com/alexbrown/"
+    }
+  },
+  {
+    "name": "Priya Nair",
+    "title": "Ex-Data Scientist, Uber",
+    "imageUrl": "https://i.pravatar.cc/150?u=a042581f4e29026709d",
+    "description": "ML interviews & cases",
+    "socials": {
+      "linkedin": "https://linkedin.com/in/priyanair",
+      "leetcode": "https://leetcode.com/priyanair/"
+    }
+  }
+]
