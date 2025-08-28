@@ -1,22 +1,22 @@
 [
   {
-    "name": "John Doe",
+    "name": "Ashish Khurana",
     "title": "Senior SWE, Google",
-    "imageUrl": "https://i.pravatar.cc/150?u=a042581f4e29026704d",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4E03AQGtVcXEghNjIQ/profile-displayphoto-shrink_400_400/B4EZY9C28NHgAg-/0/1744780883876?e=1759363200&v=beta&t=zzEpWHSVKIReiUc0wXJu7nx97gRbHxgsF3MZw9QT32o",
     "description": "Algorithms & DS mentor",
     "socials": {
-      "linkedin": "https://linkedin.com/in/johndoe",
-      "twitter": "https://twitter.com/johndoe",
+      "linkedin": "https://www.linkedin.com/in/ashish-khurana-004572283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "twitter": "",
       "leetcode": "https://leetcode.com/johndoe/"
     }
   },
   {
-    "name": "Jane Smith",
+    "name": "Harshit Jaiswal",
     "title": "PM, Microsoft",
-    "imageUrl": "https://i.pravatar.cc/150?u=a042581f4e29026705d",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQGQeod9FLsk8Q/profile-displayphoto-scale_400_400/B56ZfKHSW1HoAk-/0/1751442598633?e=1759363200&v=beta&t=mMDDU85YQmxlkmmbnXazCPClRkrCdsEAtw3MJiMWK10",
     "description": "Product strategy & UX",
     "socials": {
-      "linkedin": "https://linkedin.com/in/janesmith",
+      "linkedin": "https://www.linkedin.com/in/harshit-jaiswal-3a59301bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "leetcode": "https://leetcode.com/janesmith/"
     }
   }

@@ -11,6 +11,10 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: 'i.pravatar.cc',
       },
+      {
+        protocol: 'https',
+        hostname: 'media.licdn.com',
+      },
     ],
   },
   async rewrites() {
@@ -37,3 +41,4 @@ const nextConfig: NextConfig = {
 }
 
 export default nextConfig
+
