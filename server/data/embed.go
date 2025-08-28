@@ -2,6 +2,9 @@ package data
 
 import _ "embed"
 
+//go:embed mentors.json
+var MentorsJSON []byte
+
 //go:embed current.json
 var CurrentJSON []byte
 

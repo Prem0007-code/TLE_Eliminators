@@ -2,8 +2,20 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#06143A] text-white">
-      <div className="max-w-7xl mx-auto py-14 px-4 sm:px-6 lg:px-8">
+    <footer className="relative text-white" style={{ backgroundColor: '#0a1022' }}>
+      {/* subtle radial gradient glow to match site theme */}
+      <div
+        className="pointer-events-none absolute inset-0"
+        aria-hidden
+        style={{
+          background: [
+            'linear-gradient(180deg, rgba(30,58,138,0.20) 0%, rgba(2,6,23,0.00) 40%)', // subtle navy wash from top
+            'radial-gradient(900px 280px at 50% 0%, rgba(37,99,235,0.22), transparent 75%)', // top blue glow
+            'radial-gradient(900px 260px at 50% 100%, rgba(14,165,233,0.16), transparent 75%)' // bottom cyan glow
+          ].join(', '),
+        }}
+      />
+      <div className="relative max-w-7xl mx-auto py-14 px-4 sm:px-6 lg:px-8">
         {/* Top grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {/* Courses */}

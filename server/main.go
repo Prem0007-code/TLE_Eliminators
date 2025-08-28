@@ -37,9 +37,13 @@ func main() {
 	mux := http.NewServeMux()
 
 	// Parse embedded JSON once at startup
+	var mentors []Mentor
 	var current []Mentor
 	var past []Mentor
 	var courses []Course
+	if err := json.Unmarshal(data.MentorsJSON, &mentors); err != nil {
+		log.Printf("warn: failed to parse mentors.json (fallback to current+past): %v", err)
+	}
 	if err := json.Unmarshal(data.CurrentJSON, &current); err != nil {
 		log.Fatalf("failed to parse current mentors: %v", err)
 	}
@@ -58,6 +62,19 @@ func main() {
 	mux.HandleFunc("/api/mentors/past", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "application/json")
 		json.NewEncoder(w).Encode(past)
+	})
+
+	// Unified mentors endpoint
+	mux.HandleFunc("/api/mentors", func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "application/json")
+		if len(mentors) > 0 {
+			json.NewEncoder(w).Encode(mentors)
+			return
+		}
+		// fallback: combine current + past
+		combined := append([]Mentor{}, current...)
+		combined = append(combined, past...)
+		json.NewEncoder(w).Encode(combined)
 	})
 
 	// Courses endpoint

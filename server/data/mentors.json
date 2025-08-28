@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Ashish Khurana",
+    "title": "Senior SWE, Google",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4E03AQGtVcXEghNjIQ/profile-displayphoto-shrink_400_400/B4EZY9C28NHgAg-/0/1744780883876?e=1759363200&v=beta&t=zzEpWHSVKIReiUc0wXJu7nx97gRbHxgsF3MZw9QT32o",
+    "description": "Algorithms & DS mentor",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/ashish-khurana-004572283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "twitter": "",
+      "leetcode": "https://leetcode.com/johndoe/"
+    }
+  },
+  {
+    "name": "Harshit Jaiswal",
+    "title": "PM, Microsoft",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQGQeod9FLsk8Q/profile-displayphoto-scale_400_400/B56ZfKHSW1HoAk-/0/1751442598633?e=1759363200&v=beta&t=mMDDU85YQmxlkmmbnXazCPClRkrCdsEAtw3MJiMWK10",
+    "description": "Product strategy & UX",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/harshit-jaiswal-3a59301bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "leetcode": "https://leetcode.com/janesmith/"
+    }
+  },
+  {
+    "name": "Mahesh Singh",
+    "title": "2 × ACM ICPC Asia West Regionalist’24 ||Ex-Problem Setter Intern @GFG",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D5603AQFZ_Ablo19B5Q/profile-displayphoto-scale_400_400/B56ZjXILoQIEAk-/0/1755955905492?e=1759363200&v=beta&t=jCUHrUWWktoYMncPRl-YdonoiKxuBZoPzeSA9IjrS-U",
+    "description": "Graphs & DP",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/mahesh-singh-a12a1424b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "leetcode": "https://www.linkedin.com/in/mahesh-singh-a12a1424b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BFTgVRjz8T2aQ2571XeUVSA%3D%3D"
+    }
+  },
+  {
+    "name": "Mridul Pandey",
+    "title": "SDE-1 Amazon",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D03AQE21AnPCtYE6g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1680287870114?e=1759363200&v=beta&t=GMqVI9EWAnz-d8AisqsCEUwMKmdRhFy6TkEufV5SwKs",
+    "description": "ML interviews & cases",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/mridul-pandey-492733211?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "leetcode": "https://leetcode.com/priyanair/"
+    }
+  },
+  {
+    "name": "Aman Raj",
+    "title": "ACM-ICPC Regionalist ",
+    "imageUrl": "https://media.licdn.com/dms/image/v2/D4D35AQGiu7p5b1i4-A/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1726068915578?e=1756994400&v=beta&t=8yvAZ9bQqJIaABrnWxC5ssgtDyJF1qu3vbQaJWr4NW8",
+    "description": "ML interviews & cases",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/aman-raj-13a73323a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "leetcode": ""
+    }
+  }
+]

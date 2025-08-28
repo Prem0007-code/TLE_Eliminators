@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Dark theme defaults */
+  --background: #0b0b0f; /* deep charcoal */
+  --foreground: #e5e7eb; /* neutral-200 */
 }
 
 @theme inline {
@@ -12,15 +13,22 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* Keep dark even if system is light; users can override later if needed */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0b0b0f;
+    --foreground: #f3f4f6;
   }
 }
 
 body {
-  background: var(--background);
+  /* Layered radial gradients for subtle glow similar to screenshot */
+  background:
+    radial-gradient(1200px 400px at 50% -100px, rgba(59,130,246,0.15), transparent 70%), /* top blue glow */
+    radial-gradient(900px 300px at 50% 100%, rgba(56,189,248,0.12), transparent 70%),     /* bottom cyan glow */
+    radial-gradient(800px 200px at -10% 20%, rgba(168,85,247,0.10), transparent 60%),     /* left purple tint */
+    radial-gradient(800px 200px at 110% 30%, rgba(99,102,241,0.10), transparent 60%),     /* right indigo tint */
+    var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
