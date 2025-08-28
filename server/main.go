@@ -83,7 +83,7 @@ func main() {
 		json.NewEncoder(w).Encode(courses)
 	})
 
-	log.Println("Go API running on :4000")
-	log.Fatal(http.ListenAndServe(":4000", mux))
+	log.Println("Go API running on :8080")
+	log.Fatal(http.ListenAndServe(":8080", mux))
 }
 
